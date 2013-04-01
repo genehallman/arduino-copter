@@ -223,3 +223,4 @@ void WriteByte(uint8_t addr, uint8_t reg, byte data)
    // End the write sequence; bytes are actually transmitted now
    Wire.endTransmission();
 }
+
